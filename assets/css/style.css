@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playfair Display", serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0 0 15px;
+}
+
+img{
+    max-width: 100%; height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.cream-bg{
+    background-color: #fff9f3;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.header{
+    border-bottom: 1px solid #e6e1e2;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    color: #17134a;
+    display: block;
+    padding: 25px 15px;
+}
+.header-btns a{
+    color: #3a2fba;
+    display: inline-block;
+    padding: 10px 15px;
+}
+a.sign-up-btn{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.hero-text{
+    text-align: center;
+    margin-top: 68px;
+}
+.hero-text h1{
+    font-size: 67px;
+    color: #17134a;
+    line-height: 69px;
+    margin-bottom: 35px;
+}
+.hero-text h2{
+    font-family: inherit;
+    font-weight: 400;
+    color: #45426e;
+    margin-bottom: 30px;
+}
+.hero-text ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 34px;
+}
+.hero-text ul svg{
+    width: 20px;
+    color: #3a2fba;
+    margin-right: 6px;
+}
+.hero-text ul li{
+    margin: 0 14px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-try-btn{
+    background-image: url(/assets/img/try-btn-bg-img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 385px;
+}
+.hero-try-btn a{
+    background-color: #3a2fba;
+    display: inline-flex;
+    color: #fff;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 110%;
+    font-weight: bold;
+}
+.hero-try-btn svg{
+    width: 9px;
+    margin-left: 10px;
+}
+.featured-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.featured-img img{
+    max-height: 35px;
+    margin: 0 20px;
+}
+
+.intro-video, .intro-video video{
+    border-radius: 20px;
+}
+.intro-video video{
+    max-width: 100%;
+}
+.intro-video{
+    border: 20px solid #ede8e9;
+    max-width: 85%;
+    margin: 0 auto;
+}
