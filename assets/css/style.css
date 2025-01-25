@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 *{
     margin: 0;
@@ -141,4 +141,202 @@ a.sign-up-btn{
 }
 .extra-bg{
     padding-bottom: 200px;
+}
+.employee-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+    background-color: #ffff;
+    border-bottom: 1px solid rgb(230, 230, 236);
+    margin-bottom: 20px;
+    
+}
+.employee-single{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.title{
+    width: 340px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.employee-single p .bold-text{
+    font-weight: 700;
+    color: rgb(69, 66, 110);
+    background-color: rgb(252, 242, 222);
+}
+p.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: -5px;
+}
+span.designation{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.employee-single img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+h2.company-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 19, 74);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.company-logo img{
+    filter: grayscale(1);
+}
+.img-1{
+    width: 95px;
+    height: 40px;
+}
+.img-2{
+    width: 40px;
+    height: 40px;
+}
+.img-3{
+    width: 90px;
+    height: 40px;
+}
+.img-4{
+    width: 40px;
+    height: 40px;
+}
+.img-5{
+    width: 84px;
+    height: 40px;
+}
+.img-6{
+    width: 161px;
+    height: 40px;
+}
+.img-7{
+    width: 40px;
+    height: 40px;
+}
+.img-8{
+    width: 161px;
+    height: 16px;
+}
+
+.service-card-section{
+    display: flex;
+    padding: 40px;
+}
+.service-bg{
+    background-color: #fff9f3;
+    border-radius: 5px;
+}
+
+.service-title{
+    font-family: "Philosopher", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(23, 19, 74);
+}
+.section-detail{
+    font-size: 20px;
+    color: rgb(69, 66, 110);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section-list{
+    display: flex;
+    align-items: ;
+}
+.section-list h4{
+    margin-top: -6px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(69, 66, 110);
+}
+
+.service-img{
+    width:800px;
+}
+
+.first-img-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(69, 66, 110);
+    text-align: center;
+}
+.first-img-text span{
+    font-style: italic;
+}
+
+.try-dorik-now-btn a {
+    background-color: #3a2fba;
+    display: inline-flex;
+    color: #fff;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.try-dorik-now-btn svg {
+    width: 10px;
+    margin-left: 10px;
+}
+.try-dorik-now-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-info{
+    margin-right: 40px;
+}
+
+hr {
+    width: 93%;
+    margin: auto;
+    border: 1px solid #e6e1e1;
+}
+
+.you-get-option{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.you-get-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 19, 74);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin-top: 15px;
+}
+.you-get-detail{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(69, 66, 110);
+    width: 350px;
+}
+
+.style-2{
+    margin-top: 60px;
+    background-color: #fdeff7;
 }
