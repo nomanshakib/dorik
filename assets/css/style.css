@@ -473,3 +473,107 @@ hr {
 .maintenance-colum-gap{
     margin-top: -40px;
 }
+
+.pricing-section-title {
+    font-family: "Philosopher", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(23, 19, 74);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pricing-section-details {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(69, 66, 110);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 750px;
+    display: inline-block;
+}
+.pricing-section{
+    background-color: #fff9f3;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.guide-section{
+    margin-bottom: 110px;
+}
+.guide-title-text-align{
+    text-align: center;
+}
+.guide-section-title {
+    font-family: "Philosopher", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(23, 19, 74);
+    margin-top: 110px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 950px;
+    display: inline-block;
+}
+
+
+.guide-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+.guide-card-single{
+    background-color: #f6f6fc;
+    padding: 30px;
+    border-radius: 10px;
+    width: 370px;
+    height: 300px;
+    border-bottom: 3px solid #8c3bfc;
+}
+.live-chat-card{
+    border-bottom: 3px solid #de238e;
+}
+.online-card{
+    border-bottom: 3px solid #ffcc85;
+}
+
+.guide-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(23, 19, 74);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin-top: 15px;
+    width: 300px;
+}
+
+.guide-card-details {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(69, 66, 110);
+    width: 295px;
+}
+
+.guide-btn a {
+    display: inline-flex;
+    color: #000;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.guide-btn svg {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.guide-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
