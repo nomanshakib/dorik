@@ -110,8 +110,8 @@ a.sign-up-btn{
     align-items: center;
     padding: 20px 40px;
     border-radius: 5px;
-    font-size: 110%;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
 }
 .hero-try-btn svg{
     width: 9px;
@@ -295,7 +295,7 @@ h2.company-title {
     padding: 15px 25px;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .try-dorik-now-btn svg {
@@ -428,4 +428,48 @@ hr {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
+}
+.maintenance-section-title {
+    font-family: "Philosopher", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(23, 19, 74);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.maintenance-section-details{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(69, 66, 110);
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.maintenance-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.maintenance-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(23, 19, 74);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin-top: 15px;
+    width: 300px;
+}
+
+.maintenance-card-detail {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(69, 66, 110);
+    width: 350px;
+    width: 340px;
+}
+.maintenance-colum-gap{
+    margin-top: -40px;
 }
