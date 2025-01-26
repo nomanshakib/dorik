@@ -194,6 +194,7 @@ h2.company-title {
     color: rgb(23, 19, 74);
     margin-top: 50px;
     margin-bottom: 30px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .company-logo {
@@ -262,7 +263,6 @@ h2.company-title {
 }
 .section-list{
     display: flex;
-    align-items: ;
 }
 .section-list h4{
     margin-top: -6px;
@@ -270,6 +270,7 @@ h2.company-title {
     font-size: 18px;
     font-weight: 500;
     color: rgb(69, 66, 110);
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .service-img{
@@ -339,4 +340,92 @@ hr {
 .style-2{
     margin-top: 60px;
     background-color: #fdeff7;
+}
+.style-3{
+    margin-top: 60px;
+    background-color: #f1faf7;
+}
+.style-4{
+    margin-top: 60px;
+    background-color: #eeebfa;
+}
+
+
+.join-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.join-section-title {
+    font-family: "Philosopher", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(23, 19, 74);
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.company-logo-wrapper{
+    flex-wrap: wrap;
+    row-gap: 30px;
+    width: 500px;
+}
+.company-logo-wrapper img{
+    filter: none;
+}
+
+.beautiful-element-section-bg{
+    background-color: #030521;
+}
+.beautiful-element-section-container-padding{
+    padding: 30px;
+}
+.beautiful-element-section-title{
+    font-family: "Philosopher", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffff;
+    width: 540px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.beautiful-element{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.amazing-card{
+    border: 1px solid #1d1e38;
+    padding-left: 30px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.beautiful-element-card-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(209, 208, 219);
+    font-family: "Philosopher", serif;
+}
+.beautiful-element-card-detail{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+.element-card{
+    padding-right: 210px;
+}
+
+.all-project-show-section{
+    background-color: #030521;
+    object-fit: contain;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
